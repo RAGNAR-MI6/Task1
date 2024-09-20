@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration Subscription</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .top-section {
+            display: flex;
+            flex: 65; /* Takes up 65% of height */
+            background-color: #f9c49a;
+            
+        }
+        .left-half, .right-half {
+            width: 50%; /* 50% left and 50% right division */
+        }
+        .left-half {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            padding-right: 150px;
+            margin-left: 10%;
+        }
+        .left-half h1 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        .left-half p {
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            margin-right: 40%;
+            text-align: left;
+            color: black;
+        }
+        .left-half h4 {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .email-box {
+            display: inline-flex;
+        }
+        .email-box input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            outline: none;
+            ;
+            border-radius: 5px 0 0 5px;
+        }
+        .email-box button {
+            
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            
+        }
+
+        
+        .left-half h5 {
+            margin-top: 25px;
+            color: #fff;
+            text-align: left;
+            padding-left: 10%;
+            
+        }
+
+        .right-half {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            image-rendering: auto;
+        }
+        
+        
+        
+        .bottom-section {
+            display: flex;
+            flex: 35; /* Takes up 35% of height */
+            background-color: #333;
+            color: #fff;
+            
+            justify-content: space-between;
+        }
+        .bottom-left, .bottom-right {
+            width: 50%; /* 50% width for left and right sections */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .bottom-left a, .bottom-right a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .bottom-left p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            text-align: left;
+            margin-left: 20%;            
+        } 
+        .bottom-right p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            text-align: right;
+            margin-right: 25%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Section: 65% height and divided 50/50 width -->
+        <div class="top-section">
+            <!-- Left half with the heading and description -->
+            <div class="left-half">
+                <div>
+                        <h1>An inspiring design delivered to your inbox every morning</h1>
+                        <p>Our team scouts the internet for the best designs, illustrations, and art and delivers a truly inspiring one every day to your inbox.</p>
+                        <h4>Show me how it looks</h4>
+
+                    <div class="email-box">
+                        <input type="email" placeholder="Your e-mail address" >
+                        <button>Register Now</button>
+                        
+                    </div>
+
+                        <h5>Free - No Spam - No Data Sharing</h5>
+                </div>
+            </div>
+            <!-- Right half with the input and button -->
+            <div class="right-half">
+                <img src="D:\SMART\image1.png">
+                
+            </div>
+        </div>
+
+        <!-- Bottom Section: 35% height -->
+        <div class="bottom-section">
+            <div class="bottom-left">
+                <p>Prompt Generator</p>
+                <p>Dweep Daily</p>
+                <p>All Contributors</p>
+                <p>Your data on Dweep.io</p>
+                <p>Contribute to Dweep</p>
+            </div>
+            
+            <div class="bottom-right">
+                <p> Dweep.io</p>
+                <p>Made with love in India</p>
+                <p><a href="mailto:hello@dweep.io">hello@dweep.io</a></p>
+            </div>
+
+           
+
+        </div>
+    </div>
+</body>
+</html>
